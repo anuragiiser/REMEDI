@@ -1,5 +1,3 @@
-# code/
+# code
 
-This folder contains source code and scripts related to the REMEDI project.
-
-Add your implementation files here.
+This folder contains source code for baselines and scripts related to the REMEDI project.
