@@ -1,0 +1,29 @@
+# REMEDI - Python dependencies
+# Tested with Python 3.12 on Linux with CUDA 12.6.
+#
+# For a CUDA 12.6 build of PyTorch, install torch first:
+#   pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu126
+# then install the rest:
+#   pip install -r requirements.txt
+
+# Core
+torch==2.8.0
+transformers==4.55.4
+tokenizers==0.21.4
+safetensors==0.6.2
+huggingface-hub==0.34.4
+accelerate==1.10.1
+
+# Data handling and metrics
+numpy==2.3.2
+pandas==2.3.2
+scikit-learn==1.7.1
+scipy==1.16.1
+tqdm==4.67.1
+
+# Benchmark construction (BM25 similarity for the concurrent forget sets)
+rank-bm25==0.2.2
+
+# Running demo.ipynb
+jupyter
+ipykernel
